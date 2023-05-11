@@ -12,7 +12,9 @@ function FileUploader() {
   const handleTextChange = (event) => {
     setText(event.target.value);
   };
-
+  const getNumNewlines = (text) => {
+    return (text.match(/\n/g) || []).length;
+  };
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -38,7 +40,7 @@ function FileUploader() {
           <input id="file-input" type="file" onChange={handleFileChange} />
         </div>
         <div className="form-group">
-          <label htmlFor="text-input">Text:</label>
+          <label htmlFor="text-input">PLM:</label>
           <input
             id="text-input"
             type="text"
@@ -48,7 +50,14 @@ function FileUploader() {
         </div>
         <button type="submit">Upload</button>
       </form>
-      {result && <div className="result">{result}</div>}
+      {result && (
+        <textarea
+          className="result"
+          value={result}
+          onChange={handleTextChange}
+          style={{ height: `${getNumNewlines(result) * 1000}px` }}
+        />
+      )}
     </div>
   );
 }
