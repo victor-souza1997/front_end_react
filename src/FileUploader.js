@@ -20,7 +20,7 @@ function FileUploader() {
     formData.append("file", file);
     formData.append("text", text);
 
-    const response = await fetch("https://example.com/upload", {
+    const response = await fetch("https://90a90b38-b769-4d99-9e2f-254670bda4c0.mock.pstmn.io/test", {
       method: "POST",
       body: formData,
     });
@@ -33,19 +33,22 @@ function FileUploader() {
   return (
     <div className="file-uploader">
       <form onSubmit={handleSubmit}>
-        <label>
-          File:
-          <input type="file" onChange={handleFileChange} />
-        </label>
-        <br />
-        <label>
-          Text:
-          <input type="PLM" value={text} onChange={handleTextChange} />
-        </label>
-        <br />
+        <div className="form-group">
+          <label htmlFor="file-input">File:</label>
+          <input id="file-input" type="file" onChange={handleFileChange} />
+        </div>
+        <div className="form-group">
+          <label htmlFor="text-input">Text:</label>
+          <input
+            id="text-input"
+            type="text"
+            value={text}
+            onChange={handleTextChange}
+          />
+        </div>
         <button type="submit">Upload</button>
       </form>
-      {result && <div>{result}</div>}
+      {result && <div className="result">{result}</div>}
     </div>
   );
 }
