@@ -5,9 +5,12 @@ import FileUploader from "./FileUploader";
 
 function App() {
   return (
+    
     <div>
+      
       <h1>System Analysis Service</h1>
       <FileUploader />
+      <footer className="my-footer">Sidia System Analysis and Performance Team</footer>
     </div>
   );
 }
