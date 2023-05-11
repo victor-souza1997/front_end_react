@@ -9,7 +9,7 @@ services:
             - '.:/app'
             - '/app/node_modules'
         ports:
-            - '3003:3000'
+            - '1313:3000'
         environment:
             - NODE_ENV=development
         stdin_open: true
