@@ -5,11 +5,9 @@ import { Link } from 'react-router-dom';
 function Politica() {
   return (
     <div>
-      <header>
-        <h1>🔒 Política de Privacidade</h1>
-      </header>
+     
 
-      <section className="content">
+    
         <h2>1. Introdução</h2>
         <p>Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações ao utilizar nossos serviços de assistência técnica de computadores e serviços de TI.</p>
 
@@ -30,16 +28,9 @@ function Politica() {
 
         <h2>7. Contato</h2>
         <p>Para dúvidas ou mais informações sobre esta Política de Privacidade, entre em contato conosco através dos canais fornecidos.</p>
-      </section>
+      
 
-      <footer>
-        <h1>📜 Termos de Uso</h1>
-        <p>Souza Tech © 2022 | CNPJ: 48.044.039/0001-37 | Razão Social: Souza Tech</p>
-        <p>Endereço: R. Jordão de Oliveira, 578, CEP 49037-330</p>
-        <p>Telefone: <a href="tel:+5579988081729">(79) 98808-1729</a> | E-mail: <a href="mailto:victor-souza1997@hotmail.com">victor-souza1997@hotmail.com</a></p>
-        <p><Link to="/">Página Inicial</Link> | <Link to="/termos">Termo de Uso</Link></p>
-        <p>Art. 49 do Código de Defesa do Consumidor | Garantia total de 7 dias</p>
-      </footer>
+
     </div>
   );
 }

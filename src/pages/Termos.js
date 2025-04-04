@@ -3,11 +3,8 @@ import React from 'react';
 function Termos() {
     return (
       <div>
-        <header>
-          <h1>Termos de Uso</h1>
-        </header>
   
-        <section className="content">
+      
           <h2>1. Introdução</h2>
           <p>Estes Termos de Uso descrevem as condições para utilização dos serviços de assistência técnica de computadores e serviços de TI fornecidos pela nossa empresa.</p>
   
@@ -28,12 +25,8 @@ function Termos() {
   
           <h2>7. Contato</h2>
           <p>Para dúvidas ou mais informações, entre em contato conosco através dos canais fornecidos.</p>
-        </section>
-  
-        <footer>
-          <p>&copy; 2022 Souza Tech. Todos os direitos reservados.</p>
-          <p><a href="/">Voltar para a Página Principal</a></p>
-        </footer>
+        
+
       </div>
     );
   }
