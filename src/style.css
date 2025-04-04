@@ -6,13 +6,20 @@ body {
   }
   
   header {
-    background-color: #0d6efd;
-    color: white;
+    background: linear-gradient(90deg, #0d6efd, #2563eb);
+    color: #ffffff;
     text-align: center;
-    padding: 1.5rem 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #e3e3e3;
   }
   
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
   .container {
     display: flex;
     min-height: 100vh;
