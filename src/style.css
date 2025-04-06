@@ -20,13 +20,29 @@ body {
     font-weight: 600;
     letter-spacing: 0.5px;
   }
+  .header-com-imagem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    background: linear-gradient(90deg, #0d6efd, #2563eb);
+    color: white;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    height: 180px;
+    width: auto;
+    border-radius: 70px;
+  }
   .container {
     display: flex;
     min-height: 100vh;
   }
   
   .sidebar {
-    width: 220px;
+    width: 320px;
     background-color: #e9ecef;
     padding: 1rem;
     box-shadow: 2px 0 5px rgba(0,0,0,0.05);
@@ -38,7 +54,7 @@ body {
   }
   
   .sidebar li {
-    margin: 0.5rem 0;
+    margin: 1.5rem 0;
   }
   
   .sidebar a {
