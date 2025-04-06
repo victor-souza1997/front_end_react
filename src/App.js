@@ -38,9 +38,12 @@ function App() {
   return (
     <Router>
       <div>
-        <header>
-          <h1>Joao's Computer | TI & Assistência</h1>
-        </header>
+      <header className="header-com-imagem">
+      <img src="/joaocomputerlogo.png" alt="Logo da empresa" className="logo"  />
+      <h1>Joao's Computer | TI & Assistência</h1>
+
+       </header>
+     
 
         <div className="container">
           <nav className="sidebar">
