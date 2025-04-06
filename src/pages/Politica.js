@@ -4,33 +4,70 @@ import { Link } from 'react-router-dom';
 
 function Politica() {
   return (
-    <div>
-     
+    <div className="content">
+      <h2 style={{ textAlign: 'center', marginBottom: '1rem' }}>Política de Privacidade</h2>
 
-    
-        <h2>1. Introdução</h2>
-        <p>Esta Política de Privacidade descreve como coletamos, usamos e protegemos suas informações ao utilizar nossos serviços de assistência técnica de computadores e serviços de TI.</p>
+      <p>
+        Esta Política de Privacidade descreve como a Joao's Computer coleta, usa, armazena e protege as informações pessoais de seus usuários e clientes. O uso dos serviços e navegação no site implicam na aceitação total deste documento.
+      </p>
 
-        <h2>2. Coleta de Informações</h2>
-        <p>Coletamos informações pessoais fornecidas por você ao solicitar nossos serviços, como nome, telefone e e-mail.</p>
+      <h3>1. Informações que coletamos</h3>
+      <p>
+        Podemos coletar informações como nome, e-mail, telefone, endereço, CPF/CNPJ, e dados relacionados à prestação dos nossos serviços de assistência técnica e soluções em TI. Os dados são fornecidos diretamente pelo usuário via formulários, WhatsApp ou atendimento presencial.
+      </p>
 
-        <h2>3. Uso das Informações</h2>
-        <p>Usamos suas informações para fornecer suporte técnico, agendar atendimentos e comunicar informações sobre nossos serviços.</p>
+      <h3>2. Finalidade da coleta</h3>
+      <p>
+        Os dados coletados são utilizados para fins de:
+      </p>
+      <ul>
+        <li>Identificação e comunicação com o cliente;</li>
+        <li>Agendamento de atendimentos técnicos;</li>
+        <li>Envio de orçamentos e informações sobre os serviços;</li>
+        <li>Melhoria contínua do atendimento e personalização da experiência do cliente.</li>
+      </ul>
 
-        <h2>4. Compartilhamento de Informações</h2>
-        <p>Não compartilhamos suas informações pessoais com terceiros, exceto quando necessário para a prestação do serviço ou exigido por lei.</p>
+      <h3>3. Compartilhamento de informações</h3>
+      <p>
+        A Joao's Computer não compartilha os dados pessoais dos usuários com terceiros, salvo quando necessário para cumprir obrigações legais ou mediante autorização expressa do titular dos dados.
+      </p>
 
-        <h2>5. Segurança das Informações</h2>
-        <p>Implementamos medidas de segurança adequadas para proteger suas informações contra acessos não autorizados, alterações, divulgações ou destruições.</p>
+      <h3>4. Armazenamento e segurança</h3>
+      <p>
+        Os dados pessoais são armazenados com segurança em sistemas protegidos. Adotamos práticas adequadas de segurança da informação para evitar acesso, alteração, divulgação ou destruição não autorizada dos dados coletados.
+      </p>
 
-        <h2>6. Alterações na Política de Privacidade</h2>
-        <p>Podemos atualizar esta Política de Privacidade a qualquer momento. Notificaremos sobre quaisquer mudanças através dos meios de comunicação fornecidos.</p>
+      <h3>5. Direitos dos titulares</h3>
+      <p>
+        O usuário pode, a qualquer momento, solicitar:
+      </p>
+      <ul>
+        <li>Acesso aos seus dados pessoais;</li>
+        <li>Correção de informações incompletas ou desatualizadas;</li>
+        <li>Exclusão dos dados da nossa base (quando permitido por lei).</li>
+      </ul>
 
-        <h2>7. Contato</h2>
-        <p>Para dúvidas ou mais informações sobre esta Política de Privacidade, entre em contato conosco através dos canais fornecidos.</p>
-      
+      <h3>6. Cookies e dados de navegação</h3>
+      <p>
+        Podemos utilizar cookies apenas para fins de estatísticas de acesso e desempenho do site, sem coletar dados pessoais identificáveis sem o seu consentimento.
+      </p>
 
+      <h3>7. Alterações nesta política</h3>
+      <p>
+        Esta Política de Privacidade poderá ser atualizada periodicamente. É responsabilidade do usuário consultar esta página regularmente para estar ciente de eventuais modificações.
+      </p>
 
+      <h3>8. Informações da empresa e contato</h3>
+      <p>
+        Razão Social: João Victor Lima de Souza 07202625504<br />
+        Nome Fantasia: Joao's Computer<br />
+        CNPJ: 48.044.039/0001-37<br />
+        Endereço: R. Jordão de Oliveira, 578, CEP 49037-330<br />
+        E-mail: victor-souza1997@hotmail.com<br />
+        Telefone: (79) 98808-1729
+      </p>
+
+  
     </div>
   );
 }
