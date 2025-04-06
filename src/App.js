@@ -48,8 +48,9 @@ function App() {
         <div className="container">
           <nav className="sidebar">
             <ul>
+              <li><Link to="/">Página Principal</Link></li>
               <li><Link to="/termos">Termos de Uso</Link></li>
-              <li><Link to="/politica">Política de Uso</Link></li>
+              <li><Link to="/politica">Política de Privacidade</Link></li>
               <li><Link to="/sobre">Sobre Nós</Link></li>
             </ul>
           </nav>
@@ -66,8 +67,8 @@ function App() {
           <h1>📜 <Link to="/termos">Termos de Uso</Link></h1>
           <p>Joao's Computer © 2022 | CNPJ: 48.044.039/0001-37 | Razão Social: João Victor Lima de Souza</p>
           <p>Endereço: R. Jordão de Oliveira, 578, CEP 49037-330</p>
-          <p>Telefone: <a href="tel:+5579988081729">(79) 98808-1729</a> | E-mail: <a href="mailto:joao.computer2022@gmail.com">joao.computer2022@gmail.com</a></p>
-          <p><Link to="/">Página Principal</Link> | <Link to="/politica">Políticas de Uso</Link> | <Link to="/sobre">Sobre</Link></p>
+          <p>Telefone: <a href="tel:+5579988081729">(79) 98808-1729</a> | E-mail: <a href="mailto:victor-souza1997@hotmail.com">victor-souza1997@hotmail.com</a></p>
+          <p><Link to="/">Página Principal</Link> | <Link to="/politica">Política de Privacidade</Link> | <Link to="/sobre">Sobre</Link></p>
           <p>Art. 49 do Código de Defesa do Consumidor | Garantia total de 7 dias</p>
         </footer>
       </div>
